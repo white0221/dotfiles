@@ -1,0 +1,24 @@
+# This is Git's per-user configuration file.
+[user]
+name = white0221
+email = your email!
+[color]
+  ui = auto
+[alias]
+  ac   = ! git add . --all && git commit
+  acp  = ! git add . --all && git commit && git push
+  br   = branch
+  co   = checkout
+  df   = diff --name-only
+  fe   = fetch -p
+  lo   = log --all --graph --simplify-by-decoration --decorate --pretty=format:'%cd%Cgreen%d %Cblue%h %Creset%s' --date=short
+  lo-o = log --no-merges --date=short --pretty='format:%C(yellow)%h %C(green)%cd %C(blue)%an%C(red)%d %C(reset)%s'
+  me   = merge
+  nm   = branch --no-merge
+  st   = status
+  vdf  = difftool --tool=vimdiff --no-prompt
+[pull]
+  rebase = false
+[core]
+  editor = vim
+

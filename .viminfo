@@ -1,0 +1,2294 @@
+# この viminfo ファイルは Vim 8.2 によって生成されました.
+# 変更する際には十分注意してください!
+
+# Viminfo version
+|1,4
+
+# このファイルが書かれた時の 'encoding' の値
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~h
+# コマンドライン 項目の履歴 (新しいものから古いものへ):
+:q
+|2,0,1605170072,,"q"
+:q!
+|2,0,1604976749,,"q!"
+:wq
+|2,0,1604627786,,"wq"
+:wq!
+|2,0,1604627475,,"wq!"
+:!
+|2,0,1602047975,,"!"
+:q1
+|2,0,1598415776,,"q1"
+:w
+|2,0,1598402329,,"w"
+:ewq
+|2,0,1596525135,,"ewq"
+
+# 検索文字列 項目の履歴 (新しいものから古いものへ):
+
+# 式 項目の履歴 (新しいものから古いものへ):
+
+# 入力行 項目の履歴 (新しいものから古いものへ):
+
+# デバッグ行 項目の履歴 (新しいものから古いものへ):
+
+# レジスタ:
+"0	LINE	0
+	set fenc=utf-8
+|3,0,0,1,1,0,1586486808,"set fenc=utf-8"
+""1	LINE	0
+	ifconfig en0 | grep inet | grep -v inet6 | sed -E "s/inet ([0-9]{1,3}.[0-9]{1,3}.[0-9].{1,3}.[0-9]{1,3}) .*$/\1/" | tr -d "\t"
+|3,1,1,1,1,0,1603787751,"ifconfig en0 | grep inet | grep -v inet6 | sed -E \"s/inet ([0-9]{1,3}.[0-9]{1,3}.[0-9].{1,3}.[0-9]{1,3}) .*$/\\1/\" | tr -d \"\\t\""
+"2	LINE	0
+	export AWS_ACCESS_KEY_ID='AKIARIBCRKUGAJMHLCMU'
+	export AWS_SECRET_ACCESS_KEY='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'
+|3,0,2,1,2,0,1603426034,"export AWS_ACCESS_KEY_ID='AKIARIBCRKUGAJMHLCMU'","export AWS_SECRET_ACCESS_KEY='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'"
+"3	LINE	0
+	# RUN elasticsearch-plugin remove analysis-kuromoji
+|3,0,3,1,1,0,1598415720,"# RUN elasticsearch-plugin remove analysis-kuromoji"
+"4	LINE	0
+	# RUN elasticsearch-plugin remove analysis-kuromoji
+|3,0,4,1,1,0,1596528873,"# RUN elasticsearch-plugin remove analysis-kuromoji"
+"5	LINE	0
+	ADD elasticsearch.yml /usr/share/elasticsearch/config/elasticsearch.yml
+|3,0,5,1,1,0,1596525134,"ADD elasticsearch.yml /usr/share/elasticsearch/config/elasticsearch.yml"
+"6	LINE	0
+	FROM docker.elastic.co/kibana/kibana:7.2.0
+|3,0,6,1,1,0,1596457262,"FROM docker.elastic.co/kibana/kibana:7.2.0"
+"7	LINE	0
+	    image: docker.elastic.co/kibana/kibana:7.5.1
+|3,0,7,1,1,0,1596456905,"    image: docker.elastic.co/kibana/kibana:7.5.1"
+"8	LINE	0
+	    links:
+	      - elasticsearch:elasticsearch 
+|3,0,8,1,2,0,1596456068,"    links:","      - elasticsearch:elasticsearch "
+"9	LINE	0
+	    volumes:
+	      - ./es-data:/usr/share/elasticsearch/data
+|3,0,9,1,2,0,1596451110,"    volumes:","      - ./es-data:/usr/share/elasticsearch/data"
+"-	CHAR	0
+	1
+|3,0,36,0,1,0,1596456897,"1"
+
+# ファイルマーク:
+'0  1  0  ~/itandi/bukkakun/.git/COMMIT_EDITMSG
+|4,48,1,0,1605170072,"~/itandi/bukkakun/.git/COMMIT_EDITMSG"
+'1  1  1  ~/itandi/bukkakun/.git/MERGE_MSG
+|4,49,1,1,1604976749,"~/itandi/bukkakun/.git/MERGE_MSG"
+'2  1  0  ~/itandi/bukkakun/.git/MERGE_MSG
+|4,50,1,0,1604635572,"~/itandi/bukkakun/.git/MERGE_MSG"
+'3  15  0  /private/etc/hosts
+|4,51,15,0,1604627786,"/private/etc/hosts"
+'4  15  0  /private/etc/hosts
+|4,52,15,0,1604627494,"/private/etc/hosts"
+'5  15  0  /private/etc/hosts
+|4,53,15,0,1604627479,"/private/etc/hosts"
+'6  15  0  /private/etc/hosts
+|4,54,15,0,1604627479,"/private/etc/hosts"
+'7  1  1  ~/itandi/bukkakun/.git/MERGE_MSG
+|4,55,1,1,1604555444,"~/itandi/bukkakun/.git/MERGE_MSG"
+'8  1  1  ~/itandi/bukkakun/.git/MERGE_MSG
+|4,56,1,1,1604555444,"~/itandi/bukkakun/.git/MERGE_MSG"
+'9  1  0  ~/itandi/bukkakun/.git/MERGE_MSG
+|4,57,1,0,1604310384,"~/itandi/bukkakun/.git/MERGE_MSG"
+
+# ジャンプリスト (新しいものが先):
+-'  1  0  ~/itandi/bukkakun/.git/COMMIT_EDITMSG
+|4,39,1,0,1605170072,"~/itandi/bukkakun/.git/COMMIT_EDITMSG"
+-'  1  1  ~/itandi/bukkakun/.git/MERGE_MSG
+|4,39,1,1,1604976749,"~/itandi/bukkakun/.git/MERGE_MSG"
+-'  1  1  ~/itandi/bukkakun/.git/MERGE_MSG
+|4,39,1,1,1604976749,"~/itandi/bukkakun/.git/MERGE_MSG"
+-'  1  0  ~/itandi/bukkakun/.git/MERGE_MSG
+|4,39,1,0,1604635572,"~/itandi/bukkakun/.git/MERGE_MSG"
+-'  1  0  ~/itandi/bukkakun/.git/MERGE_MSG
+|4,39,1,0,1604635572,"~/itandi/bukkakun/.git/MERGE_MSG"
+-'  15  0  /private/etc/hosts
+|4,39,15,0,1604627786,"/private/etc/hosts"
+-'  15  0  /private/etc/hosts
+|4,39,15,0,1604627786,"/private/etc/hosts"
+-'  15  0  /private/etc/hosts
+|4,39,15,0,1604627786,"/private/etc/hosts"
+-'  15  0  /private/etc/hosts
+|4,39,15,0,1604627786,"/private/etc/hosts"
+-'  15  0  /private/etc/hosts
+|4,39,15,0,1604627786,"/private/etc/hosts"
+-'  15  0  /private/etc/hosts
+|4,39,15,0,1604627786,"/private/etc/hosts"
+-'  15  0  /private/etc/hosts
+|4,39,15,0,1604627786,"/private/etc/hosts"
+-'  15  0  /private/etc/hosts
+|4,39,15,0,1604627786,"/private/etc/hosts"
+-'  1  0  /private/etc/hosts
+|4,39,1,0,1604627511,"/private/etc/hosts"
+-'  1  0  /private/etc/hosts
+|4,39,1,0,1604627511,"/private/etc/hosts"
+-'  1  0  /private/etc/hosts
+|4,39,1,0,1604627511,"/private/etc/hosts"
+-'  1  0  /private/etc/hosts
+|4,39,1,0,1604627511,"/private/etc/hosts"
+-'  1  0  /private/etc/hosts
+|4,39,1,0,1604627511,"/private/etc/hosts"
+-'  1  0  /private/etc/hosts
+|4,39,1,0,1604627511,"/private/etc/hosts"
+-'  1  0  /private/etc/hosts
+|4,39,1,0,1604627511,"/private/etc/hosts"
+-'  1  0  /private/etc/hosts
+|4,39,1,0,1604627511,"/private/etc/hosts"
+-'  15  0  /private/etc/hosts
+|4,39,15,0,1604627494,"/private/etc/hosts"
+-'  15  0  /private/etc/hosts
+|4,39,15,0,1604627494,"/private/etc/hosts"
+-'  15  0  /private/etc/hosts
+|4,39,15,0,1604627494,"/private/etc/hosts"
+-'  15  0  /private/etc/hosts
+|4,39,15,0,1604627494,"/private/etc/hosts"
+-'  15  0  /private/etc/hosts
+|4,39,15,0,1604627494,"/private/etc/hosts"
+-'  15  0  /private/etc/hosts
+|4,39,15,0,1604627494,"/private/etc/hosts"
+-'  15  0  /private/etc/hosts
+|4,39,15,0,1604627494,"/private/etc/hosts"
+-'  15  0  /private/etc/hosts
+|4,39,15,0,1604627494,"/private/etc/hosts"
+-'  1  0  /private/etc/hosts
+|4,39,1,0,1604627490,"/private/etc/hosts"
+-'  1  0  /private/etc/hosts
+|4,39,1,0,1604627490,"/private/etc/hosts"
+-'  1  0  /private/etc/hosts
+|4,39,1,0,1604627490,"/private/etc/hosts"
+-'  1  0  /private/etc/hosts
+|4,39,1,0,1604627490,"/private/etc/hosts"
+-'  1  0  /private/etc/hosts
+|4,39,1,0,1604627490,"/private/etc/hosts"
+-'  1  0  /private/etc/hosts
+|4,39,1,0,1604627490,"/private/etc/hosts"
+-'  1  0  /private/etc/hosts
+|4,39,1,0,1604627490,"/private/etc/hosts"
+-'  1  0  /private/etc/hosts
+|4,39,1,0,1604627490,"/private/etc/hosts"
+-'  15  0  /private/etc/hosts
+|4,39,15,0,1604627479,"/private/etc/hosts"
+-'  15  0  /private/etc/hosts
+|4,39,15,0,1604627479,"/private/etc/hosts"
+-'  15  0  /private/etc/hosts
+|4,39,15,0,1604627479,"/private/etc/hosts"
+-'  15  0  /private/etc/hosts
+|4,39,15,0,1604627479,"/private/etc/hosts"
+-'  15  0  /private/etc/hosts
+|4,39,15,0,1604627479,"/private/etc/hosts"
+-'  15  0  /private/etc/hosts
+|4,39,15,0,1604627479,"/private/etc/hosts"
+-'  15  0  /private/etc/hosts
+|4,39,15,0,1604627479,"/private/etc/hosts"
+-'  15  0  /private/etc/hosts
+|4,39,15,0,1604627479,"/private/etc/hosts"
+-'  1  0  /private/etc/hosts
+|4,39,1,0,1604627467,"/private/etc/hosts"
+-'  1  0  /private/etc/hosts
+|4,39,1,0,1604627467,"/private/etc/hosts"
+-'  1  0  /private/etc/hosts
+|4,39,1,0,1604627467,"/private/etc/hosts"
+-'  1  0  /private/etc/hosts
+|4,39,1,0,1604627467,"/private/etc/hosts"
+-'  1  0  /private/etc/hosts
+|4,39,1,0,1604627467,"/private/etc/hosts"
+-'  1  0  /private/etc/hosts
+|4,39,1,0,1604627467,"/private/etc/hosts"
+-'  1  0  /private/etc/hosts
+|4,39,1,0,1604627467,"/private/etc/hosts"
+-'  1  0  /private/etc/hosts
+|4,39,1,0,1604627467,"/private/etc/hosts"
+-'  1  1  ~/itandi/bukkakun/.git/MERGE_MSG
+|4,39,1,1,1604555444,"~/itandi/bukkakun/.git/MERGE_MSG"
+-'  1  1  ~/itandi/bukkakun/.git/MERGE_MSG
+|4,39,1,1,1604555444,"~/itandi/bukkakun/.git/MERGE_MSG"
+-'  1  1  ~/itandi/bukkakun/.git/MERGE_MSG
+|4,39,1,1,1604555444,"~/itandi/bukkakun/.git/MERGE_MSG"
+-'  1  1  ~/itandi/bukkakun/.git/MERGE_MSG
+|4,39,1,1,1604555444,"~/itandi/bukkakun/.git/MERGE_MSG"
+-'  1  1  ~/itandi/bukkakun/.git/MERGE_MSG
+|4,39,1,1,1604555444,"~/itandi/bukkakun/.git/MERGE_MSG"
+-'  1  1  ~/itandi/bukkakun/.git/MERGE_MSG
+|4,39,1,1,1604555444,"~/itandi/bukkakun/.git/MERGE_MSG"
+-'  1  1  ~/itandi/bukkakun/.git/MERGE_MSG
+|4,39,1,1,1604555444,"~/itandi/bukkakun/.git/MERGE_MSG"
+-'  1  1  ~/itandi/bukkakun/.git/MERGE_MSG
+|4,39,1,1,1604555444,"~/itandi/bukkakun/.git/MERGE_MSG"
+-'  1  1  ~/itandi/bukkakun/.git/MERGE_MSG
+|4,39,1,1,1604555444,"~/itandi/bukkakun/.git/MERGE_MSG"
+-'  1  1  ~/itandi/bukkakun/.git/MERGE_MSG
+|4,39,1,1,1604555444,"~/itandi/bukkakun/.git/MERGE_MSG"
+-'  1  1  ~/itandi/bukkakun/.git/MERGE_MSG
+|4,39,1,1,1604555444,"~/itandi/bukkakun/.git/MERGE_MSG"
+-'  1  1  ~/itandi/bukkakun/.git/MERGE_MSG
+|4,39,1,1,1604555444,"~/itandi/bukkakun/.git/MERGE_MSG"
+-'  1  1  ~/itandi/bukkakun/.git/MERGE_MSG
+|4,39,1,1,1604555444,"~/itandi/bukkakun/.git/MERGE_MSG"
+-'  1  1  ~/itandi/bukkakun/.git/MERGE_MSG
+|4,39,1,1,1604555444,"~/itandi/bukkakun/.git/MERGE_MSG"
+-'  1  1  ~/itandi/bukkakun/.git/MERGE_MSG
+|4,39,1,1,1604555444,"~/itandi/bukkakun/.git/MERGE_MSG"
+-'  1  1  ~/itandi/bukkakun/.git/MERGE_MSG
+|4,39,1,1,1604555444,"~/itandi/bukkakun/.git/MERGE_MSG"
+-'  1  0  ~/itandi/bukkakun/.git/MERGE_MSG
+|4,39,1,0,1604310384,"~/itandi/bukkakun/.git/MERGE_MSG"
+-'  1  0  ~/itandi/bukkakun/.git/MERGE_MSG
+|4,39,1,0,1604310384,"~/itandi/bukkakun/.git/MERGE_MSG"
+-'  1  0  ~/itandi/bukkakun/.git/MERGE_MSG
+|4,39,1,0,1604310384,"~/itandi/bukkakun/.git/MERGE_MSG"
+-'  1  0  ~/itandi/bukkakun/.git/MERGE_MSG
+|4,39,1,0,1604310384,"~/itandi/bukkakun/.git/MERGE_MSG"
+-'  1  0  ~/itandi/bukkakun/.git/MERGE_MSG
+|4,39,1,0,1604310384,"~/itandi/bukkakun/.git/MERGE_MSG"
+-'  1  0  ~/itandi/bukkakun/.git/MERGE_MSG
+|4,39,1,0,1604310384,"~/itandi/bukkakun/.git/MERGE_MSG"
+-'  1  0  ~/itandi/bukkakun/.git/MERGE_MSG
+|4,39,1,0,1604310384,"~/itandi/bukkakun/.git/MERGE_MSG"
+-'  1  0  ~/itandi/bukkakun/.git/MERGE_MSG
+|4,39,1,0,1604310384,"~/itandi/bukkakun/.git/MERGE_MSG"
+-'  1  0  ~/itandi/bukkakun/.git/MERGE_MSG
+|4,39,1,0,1604310384,"~/itandi/bukkakun/.git/MERGE_MSG"
+-'  1  0  ~/itandi/bukkakun/.git/MERGE_MSG
+|4,39,1,0,1604310384,"~/itandi/bukkakun/.git/MERGE_MSG"
+-'  1  0  ~/itandi/bukkakun/.git/MERGE_MSG
+|4,39,1,0,1604310384,"~/itandi/bukkakun/.git/MERGE_MSG"
+-'  1  0  ~/itandi/bukkakun/.git/MERGE_MSG
+|4,39,1,0,1604310384,"~/itandi/bukkakun/.git/MERGE_MSG"
+-'  1  0  ~/itandi/bukkakun/.git/MERGE_MSG
+|4,39,1,0,1604310384,"~/itandi/bukkakun/.git/MERGE_MSG"
+-'  1  0  ~/itandi/bukkakun/.git/MERGE_MSG
+|4,39,1,0,1604310384,"~/itandi/bukkakun/.git/MERGE_MSG"
+-'  1  0  ~/itandi/bukkakun/.git/MERGE_MSG
+|4,39,1,0,1604310384,"~/itandi/bukkakun/.git/MERGE_MSG"
+-'  1  0  ~/itandi/bukkakun/.git/MERGE_MSG
+|4,39,1,0,1604310384,"~/itandi/bukkakun/.git/MERGE_MSG"
+-'  1  0  ~/itandi/bukkakun/.git/MERGE_MSG
+|4,39,1,0,1604310323,"~/itandi/bukkakun/.git/MERGE_MSG"
+-'  1  0  ~/itandi/bukkakun/.git/MERGE_MSG
+|4,39,1,0,1604310323,"~/itandi/bukkakun/.git/MERGE_MSG"
+-'  1  0  ~/itandi/bukkakun/.git/MERGE_MSG
+|4,39,1,0,1604310323,"~/itandi/bukkakun/.git/MERGE_MSG"
+-'  1  0  ~/itandi/bukkakun/.git/MERGE_MSG
+|4,39,1,0,1604310323,"~/itandi/bukkakun/.git/MERGE_MSG"
+-'  1  0  ~/itandi/bukkakun/.git/MERGE_MSG
+|4,39,1,0,1604310323,"~/itandi/bukkakun/.git/MERGE_MSG"
+-'  1  0  ~/itandi/bukkakun/.git/MERGE_MSG
+|4,39,1,0,1604310323,"~/itandi/bukkakun/.git/MERGE_MSG"
+-'  1  0  ~/itandi/bukkakun/.git/MERGE_MSG
+|4,39,1,0,1604310323,"~/itandi/bukkakun/.git/MERGE_MSG"
+-'  1  0  ~/itandi/bukkakun/.git/MERGE_MSG
+|4,39,1,0,1604310323,"~/itandi/bukkakun/.git/MERGE_MSG"
+-'  1  0  ~/itandi/bukkakun/.git/MERGE_MSG
+|4,39,1,0,1604310323,"~/itandi/bukkakun/.git/MERGE_MSG"
+-'  1  0  ~/itandi/bukkakun/.git/MERGE_MSG
+|4,39,1,0,1604310323,"~/itandi/bukkakun/.git/MERGE_MSG"
+-'  1  0  ~/itandi/bukkakun/.git/MERGE_MSG
+|4,39,1,0,1604310323,"~/itandi/bukkakun/.git/MERGE_MSG"
+-'  1  0  ~/itandi/bukkakun/.git/MERGE_MSG
+|4,39,1,0,1604310323,"~/itandi/bukkakun/.git/MERGE_MSG"
+-'  1  0  ~/itandi/bukkakun/.git/MERGE_MSG
+|4,39,1,0,1604310323,"~/itandi/bukkakun/.git/MERGE_MSG"
+-'  1  0  ~/itandi/bukkakun/.git/MERGE_MSG
+|4,39,1,0,1604310323,"~/itandi/bukkakun/.git/MERGE_MSG"
+-'  1  0  ~/itandi/bukkakun/.git/MERGE_MSG
+|4,39,1,0,1604310323,"~/itandi/bukkakun/.git/MERGE_MSG"
+
+# ファイル内マークの履歴 (新しいものから古いもの):
+
+> ~/itandi/bukkakun/.git/COMMIT_EDITMSG
+	*	1605170071	0
+	"	1	0
+
+> ~/itandi/bukkakun/.git/MERGE_MSG
+	*	1604976748	0
+	"	1	1
+	^	1	2
+	.	1	2
+	+	1	2
+
+> /private/etc/hosts
+	*	1604627785	0
+	"	15	0
+	^	15	0
+	.	15	0
+	+	15	0
+
+> ~/.zshrc
+	*	1603787945	0
+	"	12	7
+	^	12	8
+	.	12	7
+	+	3	12
+	+	12	0
+	+	13	0
+	+	14	0
+	+	3	0
+	+	2	0
+	+	12	0
+	+	7	13
+	+	8	25
+	+	14	0
+	+	15	125
+	+	10	136
+	+	15	0
+	+	11	0
+	+	12	19
+	+	11	15
+	+	10	11
+	+	10	138
+	+	12	27
+	+	13	2
+	+	12	7
+
+> ~/.zshenv
+	*	1603787728	0
+	"	6	0
+	^	8	33
+	.	13	0
+	+	11	0
+	+	7	10
+	+	11	0
+	+	7	0
+	+	5	2
+	+	11	20
+	+	13	26
+	+	14	0
+	+	10	19
+	+	12	47
+	+	19	0
+	+	6	0
+	+	9	0
+	+	19	0
+	+	8	1
+	+	9	33
+	+	7	0
+	+	9	0
+	+	8	0
+	+	8	33
+	+	19	0
+	+	13	0
+	+	19	0
+	+	13	22
+	+	8	31
+	+	13	0
+
+> ~/itandi/itandi_bb_backend/.git/COMMIT_EDITMSG
+	*	1603436606	0
+	"	1	0
+	^	1	0
+	.	1	0
+	+	1	0
+
+> ~/.gemrc
+	*	1603426314	0
+	"	9	0
+	^	9	0
+	.	8	14
+	+	8	14
+
+> ~/itandi/itandi_bb_backend/.git/MERGE_MSG
+	*	1603273791	0
+	"	1	0
+
+> ~/itandi/itandi-tools_terraform/.git/MERGE_MSG
+	*	1603111614	0
+	"	1	0
+
+> ~/itandi/keiyakukanri/.git/COMMIT_EDITMSG
+	*	1602832677	0
+	"	1	0
+
+> /usr/local/sessionmanagerplugin/seelog.xml
+	*	1602748212	0
+	"	4	102
+	^	4	103
+	.	4	102
+	+	4	102
+	+	9	62
+	+	11	65
+	+	4	102
+
+> /usr/local/sessionmanagerplugin/seelog.xml.template
+	*	1602747107	0
+	"	1	0
+
+> ~/itandi/itandi_terraform/.git/MERGE_MSG
+	*	1602063660	0
+	"	1	0
+
+> ~/itandi/keiyakukanri/deploy.sh
+	*	1602048019	0
+	"	13	16
+	^	13	17
+	.	13	16
+	+	11	0
+	+	9	50
+	+	8	1
+	+	9	2
+	+	10	0
+	+	11	17
+	+	16	6
+	+	5	44
+	+	16	0
+	+	12	27
+	+	13	32
+	+	14	32
+	+	13	16
+
+> ~/itandi/keiyakukanri/.git/MERGE_MSG
+	*	1601861697	0
+	"	1	0
+
+> ~/workspace/itandi_bb_backend/.circleci/config.yml
+	*	1598415773	0
+	"	73	47
+	^	73	48
+	.	72	38
+	+	72	38
+
+> ~/workspace/itandi_bb_backend/docker/dockerfileRails
+	*	1598415746	0
+	"	20	0
+
+> ~/workspace/itandi_bb_backend/.circleci/docker-compose-circleci.yml
+	*	1598415736	0
+	"	5	16
+	^	5	17
+	.	5	16
+	+	5	16
+	+	6	25
+	+	7	0
+	+	6	25
+	+	5	16
+
+> ~/workspace/itandi_bb_backend/docker-compose.yml
+	*	1598412213	0
+	"	5	26
+	^	5	27
+	.	5	26
+	+	5	26
+
+> ~/itandi/itandi_bb_frontend/.git/MERGE_MSG
+	*	1597891515	0
+	"	1	0
+
+> ~/itandi/itandi_bb_backend/config/credentials/staging.key
+	*	1597718359	0
+	"	1	31
+	^	1	32
+	.	1	31
+	+	1	31
+
+> ~/itandi/itandi_bb_backend/config/credentials/staging.
+	*	1597718353	0
+	"	1	0
+
+> ~/workspace/elasticsearch/docker-compose.yml
+	*	1596708854	0
+	"	27	21
+	^	27	22
+	.	27	21
+	+	30	0
+	+	5	11
+	+	23	0
+	+	23	35
+	+	16	0
+	+	18	18
+	+	23	0
+	+	23	22
+	+	11	0
+	+	11	55
+	+	30	16
+	+	23	0
+	+	30	0
+	+	11	18
+	+	10	39
+	+	11	0
+	+	15	9
+	+	23	16
+	+	23	34
+	+	13	16
+	+	20	20
+	+	23	0
+	+	22	49
+	+	38	0
+	+	4	11
+	+	30	0
+	+	29	18
+	+	42	0
+	+	27	21
+
+> ~/workspace/elasticsearch/kibana/Dockerfile
+	*	1596530397	0
+	"	1	41
+	^	1	42
+	.	1	41
+	+	1	72
+	+	1	0
+	+	1	4
+	+	1	41
+
+> ~/workspace/elasticsearch/Dockerfile
+	*	1596530389	0
+	"	1	55
+	^	1	56
+	.	1	55
+	+	5	44
+	+	1	0
+	+	2	0
+	+	5	0
+	+	2	0
+	+	1	55
+	+	4	44
+	+	6	24
+	+	6	0
+	+	1	108
+	+	2	0
+	+	1	56
+	+	2	0
+	+	1	55
+
+> ~/workspace/elasticsearch/DO
+	*	1596525130	0
+	"	1	0
+
+> ~/workspace/elasticsearch/elasticsearch.yml
+	*	1596524071	0
+	"	1	0
+	^	11	0
+	.	11	0
+	+	11	0
+
+> ~/workspace/golang_asobi/first/main.go
+	*	1596000044	0
+	"	1	0
+
+> ~/.ssh/known_hosts
+	*	1593674119	0
+	"	3	0
+	.	4	0
+	+	4	0
+
+> ~/itandi/bukkakun/config/secrets.yml.key
+	*	1593657465	0
+	"	1	31
+	^	1	32
+	.	1	31
+	+	1	31
+
+> ~/itandi/bukkakun/config/se
+	*	1593657450	0
+	"	1	0
+
+> ~/.zsh
+	*	1593570264	0
+	"	1	0
+
+> ~/workspace/itandi_bb_backend/config/credentials/development.key
+	*	1593417592	0
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/.gitconfig
+	*	1593395512	0
+	"	23	15
+	^	23	16
+	.	23	15
+	+	4	32
+	+	25	15
+	+	26	0
+	+	6	11
+	+	5	0
+	+	25	14
+	+	5	0
+	+	4	32
+	+	6	11
+	+	5	0
+	+	7	0
+	+	23	15
+
+> ~/workspace/bootcamp/logs/20200626.txt
+	*	1593165530	0
+	"	46	0
+	^	43	18
+	.	43	18
+	+	1	9
+	+	13	26
+	+	16	0
+	+	13	0
+	+	6	0
+	+	3	50
+	+	3	77
+	+	3	9
+	+	3	59
+	+	3	11
+	+	3	86
+	+	3	99
+	+	5	65
+	+	5	0
+	+	13	26
+	+	3	59
+	+	4	8
+	+	3	9
+	+	4	29
+	+	6	55
+	+	4	14
+	+	11	50
+	+	3	9
+	+	4	51
+	+	10	51
+	+	5	27
+	+	6	0
+	+	10	50
+	+	11	0
+	+	12	33
+	+	15	6
+	+	18	0
+	+	16	19
+	+	17	78
+	+	18	123
+	+	22	64
+	+	13	5
+	+	12	14
+	+	13	5
+	+	12	11
+	+	23	139
+	+	23	183
+	+	23	220
+	+	23	79
+	+	23	190
+	+	23	75
+	+	24	72
+	+	26	0
+	+	24	42
+	+	27	81
+	+	29	42
+	+	31	105
+	+	32	114
+	+	32	60
+	+	33	0
+	+	35	120
+	+	37	70
+	+	38	51
+	+	37	88
+	+	38	36
+	+	39	135
+	+	43	89
+	+	45	33
+	+	36	0
+	+	13	0
+	+	14	0
+	+	12	34
+	+	13	0
+	+	43	18
+
+> ~/workspace/bootcamp/logs/20200625.txt
+	*	1593079129	0
+	"	23	24
+	^	23	27
+	.	23	97
+	+	1	9
+	+	3	62
+	+	4	7
+	+	6	0
+	+	11	0
+	+	24	0
+	+	25	0
+	+	4	43
+	+	5	27
+	+	9	2
+	+	3	5
+	+	10	3
+	+	9	10
+	+	10	7
+	+	9	2
+	+	10	40
+	+	14	31
+	+	20	69
+	+	21	84
+	+	23	97
+
+> ~/workspace/bootcamp/logs/20200624.txt
+	*	1592992701	0
+	"	22	69
+	^	22	72
+	.	22	69
+	+	1	9
+	+	3	14
+	+	15	0
+	+	13	0
+	+	3	87
+	+	4	9
+	+	3	11
+	+	4	9
+	+	3	98
+	+	4	83
+	+	6	0
+	+	4	11
+	+	4	41
+	+	6	5
+	+	11	0
+	+	9	89
+	+	3	62
+	+	6	0
+	+	9	8
+	+	13	0
+	+	9	12
+	+	10	63
+	+	3	9
+	+	4	0
+	+	5	0
+	+	3	11
+	+	5	9
+	+	3	11
+	+	5	60
+	+	13	21
+	+	16	18
+	+	19	81
+	+	17	39
+	+	18	21
+	+	19	129
+	+	23	0
+	+	22	69
+
+> ~/workspace/bootcamp/logs/20200623.txt
+	*	1592992659	0
+	"	1	0
+	^	27	69
+	.	27	66
+	+	1	9
+	+	4	87
+	+	5	11
+	+	6	87
+	+	4	87
+	+	7	1
+	+	6	9
+	+	7	12
+	+	4	9
+	+	5	9
+	+	6	3
+	+	7	80
+	+	13	5
+	+	12	11
+	+	13	8
+	+	12	11
+	+	14	59
+	+	15	0
+	+	28	0
+	+	18	12
+	+	26	45
+	+	25	0
+	+	27	66
+
+> ~/workspace/bootcamp-app/.git/COMMIT_EDITMSG
+	*	1592966593	0
+	"	1	0
+	^	1	0
+	.	1	0
+	+	1	0
+
+> ~/workspace/bootcamp/logs/20200622.txt
+	*	1592816198	0
+	"	17	7
+	^	17	8
+	.	17	6
+	+	1	9
+	+	3	12
+	+	3	41
+	+	3	32
+	+	3	0
+	+	3	11
+	+	3	7
+	+	12	0
+	+	24	0
+	+	19	18
+	+	3	19
+	+	3	5
+	+	3	11
+	+	3	43
+	+	3	0
+	+	12	0
+	+	18	0
+	+	3	20
+	+	5	29
+	+	4	17
+	+	9	49
+	+	12	0
+	+	9	23
+	+	10	0
+	+	17	12
+	+	20	47
+	+	23	36
+	+	17	23
+	+	16	12
+	+	17	6
+
+> ~/workspace/bootcamp/logs/20200619.txt
+	*	1592559535	0
+	"	21	0
+	.	22	0
+	+	1	9
+	+	3	20
+	+	6	0
+	+	4	0
+	+	3	11
+	+	4	34
+	+	5	10
+	+	4	9
+	+	5	42
+	+	9	65
+	+	9	9
+	+	17	0
+	+	11	53
+	+	16	0
+	+	18	0
+	+	20	58
+	+	19	12
+	+	19	0
+	+	13	20
+	+	14	5
+	+	13	45
+	+	5	39
+	+	22	12
+	+	22	73
+	+	22	0
+
+> ~/workspace/bootcamp/logs/20200618.txt
+	*	1592474020	0
+	"	16	0
+	^	16	0
+	.	17	0
+	+	1	9
+	+	6	0
+	+	11	0
+	+	12	0
+	+	17	0
+	+	12	0
+	+	2	0
+	+	3	62
+	+	4	29
+	+	5	33
+	+	11	0
+	+	4	9
+	+	5	4
+	+	9	0
+	+	10	41
+	+	4	29
+	+	12	0
+	+	14	36
+	+	17	0
+	+	15	0
+	+	16	0
+	+	16	1
+	+	16	0
+	+	17	0
+
+> ~/workspace/bootcamp/logs/20200617.txt
+	*	1592387632	0
+	"	30	16
+	^	30	16
+	.	30	15
+	+	1	9
+	+	3	41
+	+	7	0
+	+	4	62
+	+	4	65
+	+	4	0
+	+	6	53
+	+	4	9
+	+	10	9
+	+	33	0
+	+	48	0
+	+	10	9
+	+	14	0
+	+	11	11
+	+	15	0
+	+	13	23
+	+	47	54
+	+	46	0
+	+	15	18
+	+	19	9
+	+	18	15
+	+	19	2
+	+	21	0
+	+	23	138
+	+	23	1
+	+	24	0
+	+	24	88
+	+	28	20
+	+	27	9
+	+	28	1
+	+	30	2
+	+	28	40
+	+	32	21
+	+	30	15
+	+	32	18
+	+	44	0
+	+	33	4
+	+	35	21
+	+	34	4
+	+	35	40
+	+	34	40
+	+	35	43
+	+	37	14
+	+	34	9
+	+	28	21
+	+	41	4
+	+	34	1
+	+	35	1
+	+	44	0
+	+	38	10
+	+	39	17
+	+	44	0
+	+	39	0
+	+	40	72
+	+	45	0
+	+	22	19
+	+	45	27
+	+	44	0
+	+	20	0
+	+	12	41
+	+	30	15
+
+> ~/workspace/bootcamp/logs/20200617
+	*	1592387571	0
+	"	1	0
+
+> ~/workspace/bootcamp-app/.git/MERGE_MSG
+	*	1592355848	0
+	"	1	0
+
+> ~/workspace/bootcamp/logs/20200616.txt
+	*	1592301084	0
+	"	27	9
+	^	27	12
+	.	27	12
+	+	1	9
+	+	4	10
+	+	26	0
+	+	4	56
+	+	5	11
+	+	6	41
+	+	11	56
+	+	12	12
+	+	13	7
+	+	5	9
+	+	6	3
+	+	13	41
+	+	16	0
+	+	17	15
+	+	21	27
+	+	23	18
+	+	19	15
+	+	21	66
+	+	20	80
+	+	22	78
+	+	23	54
+	+	25	27
+	+	24	0
+	+	26	15
+	+	27	2
+	+	31	0
+	+	25	67
+	+	27	21
+	+	30	42
+	+	19	18
+	+	20	0
+	+	27	12
+
+> ~/workspace/bootcamp/logs/20200615.txt
+	*	1592211478	0
+	"	22	52
+	^	22	55
+	.	22	52
+	+	1	9
+	+	3	56
+	+	5	11
+	+	6	52
+	+	8	23
+	+	17	0
+	+	27	0
+	+	28	0
+	+	11	56
+	+	17	0
+	+	8	0
+	+	7	0
+	+	8	0
+	+	13	9
+	+	16	23
+	+	14	41
+	+	19	4
+	+	18	6
+	+	26	60
+	+	24	15
+	+	22	52
+
+> ~/workspace/bootcamp/logs/20200612.txt
+	*	1591955826	0
+	"	12	5
+	^	12	6
+	.	12	5
+	+	1	9
+	+	4	2
+	+	3	9
+	+	4	38
+	+	6	0
+	+	9	48
+	+	10	41
+	+	36	0
+	+	5	37
+	+	11	33
+	+	36	0
+	+	20	36
+	+	17	93
+	+	17	148
+	+	16	99
+	+	17	7
+	+	17	93
+	+	20	0
+	+	18	12
+	+	18	0
+	+	16	99
+	+	18	69
+	+	16	6
+	+	23	1
+	+	23	25
+	+	28	41
+	+	23	37
+	+	24	53
+	+	22	56
+	+	25	47
+	+	31	53
+	+	35	0
+	+	34	0
+	+	33	0
+	+	15	22
+	+	33	10
+	+	10	12
+	+	12	5
+
+> ~/workspace/bootcamp/logs/20200611.txt
+	*	1591868760	0
+	"	17	3
+	^	17	6
+	.	17	6
+	+	1	9
+	+	19	0
+	+	15	0
+	+	14	0
+	+	15	0
+	+	8	47
+	+	9	41
+	+	18	54
+	+	15	12
+	+	8	9
+	+	9	7
+	+	8	11
+	+	9	7
+	+	9	14
+	+	9	8
+	+	9	41
+	+	9	35
+	+	13	30
+	+	9	6
+	+	5	0
+	+	3	11
+	+	4	5
+	+	9	12
+	+	10	6
+	+	4	3
+	+	13	6
+	+	18	45
+	+	17	6
+
+> ~/workspace/bootcamp/logs/20200610.txt
+	*	1591782711	0
+	"	23	53
+	^	17	34
+	.	12	28
+	+	1	9
+	+	3	56
+	+	4	14
+	+	4	41
+	+	9	77
+	+	3	11
+	+	4	5
+	+	10	38
+	+	24	0
+	+	28	0
+	+	26	56
+	+	27	72
+	+	26	113
+	+	26	3
+	+	26	62
+	+	27	0
+	+	26	86
+	+	27	27
+	+	4	83
+	+	4	0
+	+	10	5
+	+	12	38
+	+	5	41
+	+	12	0
+	+	11	41
+	+	18	0
+	+	19	0
+	+	21	81
+	+	23	85
+	+	21	42
+	+	20	38
+	+	23	82
+	+	23	85
+	+	24	0
+	+	14	5
+	+	13	29
+	+	12	84
+	+	14	6
+	+	12	28
+
+> ~/workspace/bootcamp/logs/20200609.txt
+	*	1591696524	0
+	"	11	87
+	^	11	88
+	.	11	87
+	+	1	9
+	+	4	8
+	+	4	7
+	+	4	80
+	+	5	87
+	+	6	0
+	+	12	0
+	+	19	0
+	+	23	0
+	+	11	7
+	+	14	111
+	+	19	0
+	+	23	0
+	+	14	21
+	+	19	48
+	+	18	53
+	+	18	0
+	+	19	0
+	+	18	0
+	+	18	17
+	+	18	0
+	+	17	54
+	+	20	6
+	+	22	57
+	+	11	87
+
+> ~/workspace/bootcamp/logs/20200608.txt
+	*	1591599426	0
+	"	25	0
+	^	25	0
+	.	25	0
+	+	1	9
+	+	26	11
+	+	26	0
+	+	3	74
+	+	5	20
+	+	6	0
+	+	10	71
+	+	12	53
+	+	3	17
+	+	6	11
+	+	7	42
+	+	14	41
+	+	7	40
+	+	12	13
+	+	13	11
+	+	17	12
+	+	26	0
+	+	5	63
+	+	12	57
+	+	24	216
+	+	24	234
+	+	19	6
+	+	21	84
+	+	22	72
+	+	24	111
+	+	24	228
+	+	24	126
+	+	24	111
+	+	26	0
+	+	24	51
+	+	25	0
+
+> ~/workspace/bootcamp/logs/20200605.txt
+	*	1591351068	0
+	"	17	81
+	^	18	0
+	.	17	81
+	+	1	9
+	+	18	0
+	+	5	9
+	+	5	63
+	+	5	0
+	+	3	0
+	+	8	0
+	+	10	0
+	+	3	9
+	+	4	3
+	+	17	81
+
+> ~/workspace/bootcamp/logs/20200604.txt
+	*	1591264705	0
+	"	16	75
+	^	16	78
+	.	17	0
+	+	1	9
+	+	17	0
+	+	24	0
+	+	17	9
+	+	17	12
+	+	3	62
+	+	4	47
+	+	5	44
+	+	12	0
+	+	9	65
+	+	11	23
+	+	16	80
+	+	17	0
+	+	20	87
+	+	21	108
+	+	22	117
+	+	22	0
+	+	16	78
+	+	14	0
+	+	15	36
+	+	16	78
+	+	17	0
+
+> ~/workspace/bootcamp/logs/20200603.txt
+	*	1591177976	0
+	"	19	66
+	^	19	69
+	.	19	66
+	+	1	9
+	+	6	62
+	+	6	0
+	+	6	11
+	+	10	0
+	+	6	0
+	+	3	0
+	+	8	0
+	+	25	0
+	+	26	0
+	+	12	81
+	+	15	0
+	+	22	56
+	+	23	102
+	+	25	0
+	+	24	68
+	+	3	11
+	+	4	6
+	+	3	9
+	+	4	35
+	+	19	66
+
+> ~/workspace/bootcamp/logs/20200602.txt
+	*	1591092076	0
+	"	10	64
+	^	10	65
+	.	10	64
+	+	1	9
+	+	3	68
+	+	4	61
+	+	6	0
+	+	4	23
+	+	9	65
+	+	3	65
+	+	10	5
+	+	5	41
+	+	11	41
+	+	19	0
+	+	27	0
+	+	27	9
+	+	27	49
+	+	21	81
+	+	20	13
+	+	21	96
+	+	21	60
+	+	22	66
+	+	27	0
+	+	27	31
+	+	27	0
+	+	14	21
+	+	15	78
+	+	16	96
+	+	19	0
+	+	18	18
+	+	27	0
+	+	23	0
+	+	24	76
+	+	26	0
+	+	25	0
+	+	10	62
+	+	23	0
+	+	10	64
+
+> ~/workspace/bootcamp/logs/20200601.txt
+	*	1591000457	0
+	"	14	23
+	^	14	26
+	.	14	23
+	+	1	9
+	+	17	0
+	+	17	75
+	+	32	0
+	+	21	76
+	+	17	47
+	+	18	72
+	+	25	15
+	+	19	3
+	+	20	92
+	+	23	3
+	+	22	3
+	+	24	74
+	+	25	16
+	+	31	0
+	+	23	42
+	+	29	0
+	+	26	31
+	+	22	4
+	+	30	77
+	+	31	6
+	+	32	19
+	+	31	24
+	+	32	26
+	+	3	58
+	+	5	15
+	+	6	63
+	+	7	54
+	+	6	51
+	+	7	51
+	+	8	23
+	+	12	0
+	+	10	6
+	+	11	0
+	+	13	0
+	+	14	0
+	+	13	8
+	+	14	23
+
+> ~/workspace/bootcamp/logs/20200529.txt
+	*	1590746152	0
+	"	21	84
+	^	21	87
+	.	21	84
+	+	1	9
+	+	14	0
+	+	16	0
+	+	18	0
+	+	3	11
+	+	5	0
+	+	4	13
+	+	3	16
+	+	4	33
+	+	8	11
+	+	9	11
+	+	14	9
+	+	13	73
+	+	14	0
+	+	15	47
+	+	15	0
+	+	18	15
+	+	15	30
+	+	18	33
+	+	19	79
+	+	20	60
+	+	21	69
+	+	21	0
+	+	22	27
+	+	22	0
+	+	22	63
+	+	23	0
+	+	24	0
+	+	27	84
+	+	9	33
+	+	8	16
+	+	13	73
+	+	21	84
+
+> ~/workspace/bootcamp/logs/20200528.txt
+	*	1590659811	0
+	"	5	4
+	^	5	5
+	.	28	0
+	+	1	9
+	+	13	21
+	+	23	0
+	+	26	0
+	+	13	21
+	+	12	0
+	+	8	0
+	+	7	0
+	+	3	9
+	+	12	0
+	+	9	0
+	+	5	64
+	+	10	61
+	+	3	9
+	+	4	9
+	+	5	11
+	+	6	23
+	+	10	25
+	+	11	12
+	+	10	9
+	+	11	23
+	+	13	21
+	+	14	102
+	+	20	20
+	+	14	95
+	+	16	71
+	+	14	98
+	+	16	74
+	+	20	55
+	+	17	0
+	+	18	54
+	+	22	30
+	+	24	24
+	+	25	2
+	+	26	57
+	+	26	71
+	+	27	0
+	+	26	71
+	+	28	0
+
+> ~/workspace/test_bootcamp_app/docker-compose.yml
+	*	1590648610	0
+	"	19	10
+	^	19	11
+	.	19	10
+	+	19	10
+
+> ~/workspace/bootcamp/logs/20200527.txt
+	*	1590573244	0
+	"	7	23
+	^	7	26
+	.	7	26
+	+	1	9
+	+	5	2
+	+	10	11
+	+	17	0
+	+	13	41
+	+	11	35
+	+	19	27
+	+	28	77
+	+	30	0
+	+	11	3
+	+	10	11
+	+	11	3
+	+	4	38
+	+	6	41
+	+	12	49
+	+	15	49
+	+	12	46
+	+	5	49
+	+	19	29
+	+	26	9
+	+	19	0
+	+	22	6
+	+	26	12
+	+	22	0
+	+	26	50
+	+	32	8
+	+	34	36
+	+	31	18
+	+	26	14
+	+	26	0
+	+	28	68
+	+	26	0
+	+	23	0
+	+	25	1
+	+	24	24
+	+	25	51
+	+	19	28
+	+	20	54
+	+	21	12
+	+	25	42
+	+	28	68
+	+	30	0
+	+	31	24
+	+	32	0
+	+	29	93
+	+	24	9
+	+	15	12
+	+	16	23
+	+	5	11
+	+	7	26
+
+> ~/workspace/bootcamp/logs/20200526.txt
+	*	1590487099	0
+	"	9	0
+	.	9	0
+	+	1	9
+	+	3	0
+	+	9	0
+	+	7	1
+	+	11	88
+	+	12	0
+	+	14	0
+	+	8	9
+	+	4	50
+	+	11	85
+	+	11	143
+	+	11	88
+	+	12	23
+	+	12	135
+	+	11	88
+	+	15	33
+	+	12	53
+	+	16	0
+	+	8	42
+	+	9	89
+	+	9	51
+	+	9	0
+
+> ~/workspace/bootcamp/logs/20200525.txt
+	*	1590400237	0
+	"	1	0
+	^	6	41
+	.	14	0
+	+	1	9
+	+	7	44
+	+	7	9
+	+	7	11
+	+	7	0
+	+	14	0
+	+	31	0
+	+	16	1
+	+	16	59
+	+	16	70
+	+	17	1
+	+	7	38
+	+	7	0
+	+	7	22
+	+	16	52
+	+	16	58
+	+	16	69
+	+	16	86
+	+	17	0
+	+	16	70
+	+	18	110
+	+	20	86
+	+	24	15
+	+	21	48
+	+	30	67
+	+	27	17
+	+	25	30
+	+	26	35
+	+	27	29
+	+	23	20
+	+	24	40
+	+	23	33
+	+	18	30
+	+	20	5
+	+	21	5
+	+	22	43
+	+	23	42
+	+	22	39
+	+	21	38
+	+	22	21
+	+	32	0
+	+	13	45
+	+	7	0
+	+	5	11
+	+	6	38
+	+	7	0
+	+	14	0
+
+> ~/workspace/bootcamp/logs/20200522.txt
+	*	1590140537	0
+	"	16	0
+	^	11	63
+	.	29	0
+	+	1	9
+	+	8	0
+	+	10	0
+	+	7	0
+	+	5	20
+	+	9	0
+	+	13	0
+	+	12	35
+	+	6	52
+	+	13	0
+	+	18	6
+	+	18	0
+	+	13	12
+	+	21	9
+	+	18	55
+	+	21	80
+	+	24	6
+	+	17	64
+	+	18	0
+	+	19	9
+	+	21	0
+	+	24	0
+	+	26	0
+	+	20	4
+	+	26	53
+	+	18	0
+	+	16	27
+	+	17	43
+	+	18	0
+	+	15	18
+	+	13	12
+	+	15	0
+	+	26	180
+	+	26	79
+	+	13	0
+	+	15	0
+	+	12	12
+	+	13	26
+	+	12	12
+	+	13	6
+	+	9	12
+	+	11	60
+	+	7	0
+	+	29	0
+
+> ~/workspace/bootcamp/logs/20200521.txt
+	*	1590053485	0
+	"	11	5
+	^	11	6
+	.	6	5
+	+	1	9
+	+	7	0
+	+	10	0
+	+	9	10
+	+	11	41
+	+	6	13
+	+	5	13
+	+	6	36
+	+	5	11
+	+	6	5
+
+> ~/workspace/bootcamp/logs/20200520.txt
+	*	1589968628	0
+	"	5	47
+	^	5	50
+	.	4	47
+	+	8	0
+	+	11	0
+	+	4	38
+	+	13	12
+	+	5	1
+	+	12	41
+	+	14	41
+	+	5	2
+	+	4	9
+	+	7	38
+	+	1	9
+	+	4	47
+
+> ~/workspace/bootcamp/logs/20200519.txt
+	*	1589882405	0
+	"	15	0
+	^	14	49
+	.	16	0
+	+	1	9
+	+	8	0
+	+	16	0
+	+	7	2
+	+	4	9
+	+	8	0
+	+	10	32
+	+	4	0
+	+	6	18
+	+	7	3
+	+	12	1
+	+	16	0
+	+	15	0
+	+	12	13
+	+	4	9
+	+	7	0
+	+	11	11
+	+	12	0
+	+	14	48
+	+	16	0
+
+> ~/workspace/bootcamp/logs/20200518.txt
+	*	1589795108	0
+	"	15	23
+	^	15	26
+	.	15	26
+	+	1	9
+	+	3	32
+	+	8	0
+	+	10	29
+	+	16	26
+	+	16	0
+	+	17	0
+	+	12	21
+	+	15	38
+	+	5	21
+	+	7	32
+	+	12	34
+	+	13	18
+	+	12	18
+	+	13	49
+	+	15	26
+
+> ~/workspace/bootcamp/logs/20200515.txt
+	*	1589537415	0
+	"	17	105
+	^	17	108
+	.	17	105
+	+	1	9
+	+	7	0
+	+	6	38
+	+	9	56
+	+	10	7
+	+	5	41
+	+	6	38
+	+	17	0
+	+	10	3
+	+	17	0
+	+	12	9
+	+	13	13
+	+	12	19
+	+	13	55
+	+	16	52
+	+	17	105
+
+> /usr/local/Cellar/vim/8.2.0500_1/share/vim/vim82/doc/help.txt
+	*	1589515350	0
+	"	1	0
+
+> ~/workspace/bootcamp/logs/20200514.txt
+	*	1589451119	0
+	"	10	0
+	.	11	0
+	+	11	0
+	+	6	0
+	+	11	0
+	+	1	9
+	+	11	0
+	+	11	45
+	+	12	4
+	+	5	42
+	+	9	30
+	+	11	0
+	+	12	0
+	+	11	0
+
+> ~/workspace/bootcamp/logs/20200513.txt
+	*	1589367852	0
+	"	17	126
+	^	17	129
+	.	17	126
+	+	1	9
+	+	3	3
+	+	13	0
+	+	18	0
+	+	7	0
+	+	3	59
+	+	5	2
+	+	3	9
+	+	4	5
+	+	5	4
+	+	4	11
+	+	6	38
+	+	10	31
+	+	9	11
+	+	10	12
+	+	12	2
+	+	11	11
+	+	12	11
+	+	18	12
+	+	18	0
+	+	15	100
+	+	16	69
+	+	17	126
+
+> ~/workspace/http-client/http_client.rb
+	*	1589367416	0
+	"	50	16
+	^	53	34
+	.	53	33
+	+	20	12
+	+	50	20
+	+	51	11
+	+	50	14
+	+	51	26
+	+	51	34
+	+	51	0
+	+	51	16
+	+	51	0
+	+	50	14
+	+	20	22
+	+	26	15
+	+	25	12
+	+	29	4
+	+	20	26
+	+	28	52
+	+	20	12
+	+	28	42
+	+	28	0
+	+	27	13
+	+	24	4
+	+	20	21
+	+	24	18
+	+	20	6
+	+	24	0
+	+	20	12
+	+	54	58
+	+	56	14
+	+	55	50
+	+	54	26
+	+	53	33
+
+> ~/workspace/http-client/http_client
+	*	1589353751	0
+	"	1	0
+
+> ~/workspace/bootcamp/logs/20200512.txt
+	*	1589278930	0
+	"	20	0
+	^	20	0
+	.	20	0
+	+	1	8
+	+	7	0
+	+	11	0
+	+	4	7
+	+	3	79
+	+	5	7
+	+	4	9
+	+	5	8
+	+	9	69
+	+	3	64
+	+	9	63
+	+	3	91
+	+	10	7
+	+	9	2
+	+	11	67
+	+	10	94
+	+	11	0
+	+	10	9
+	+	4	94
+	+	4	9
+	+	5	58
+	+	10	9
+	+	12	0
+	+	5	9
+	+	6	14
+	+	15	87
+	+	16	48
+	+	17	45
+	+	16	18
+	+	17	90
+	+	18	95
+	+	19	117
+	+	20	0
+
+> ~/workspace/bootcamp/logs/20200511.txt
+	*	1589189564	0
+	"	17	0
+	^	17	0
+	.	17	0
+	+	1	9
+	+	3	5
+	+	2	41
+	+	3	20
+	+	2	6
+	+	3	0
+	+	4	11
+	+	4	40
+	+	4	80
+	+	5	68
+	+	4	78
+	+	5	69
+	+	7	0
+	+	9	0
+	+	18	0
+	+	4	3
+	+	15	78
+	+	16	48
+	+	15	18
+	+	16	99
+	+	8	2
+	+	11	29
+	+	10	29
+	+	9	29
+	+	5	29
+	+	4	29
+	+	11	50
+	+	10	50
+	+	11	50
+	+	10	66
+	+	11	62
+	+	12	76
+	+	16	39
+	+	17	0
+
+> ~/workspace/old_bootcamp/logs/20200511.txt
+	*	1589189158	0
+	"	12	15
+
+> ~/workspace/bootcamp/logs/20200508.txt
+	*	1588931709	0
+	"	9	52
+	^	9	55
+	.	9	52
+	+	1	9
+	+	3	82
+	+	5	70
+	+	5	97
+	+	6	3
+	+	5	103
+	+	6	58
+	+	14	0
+	+	13	81
+	+	12	70
+	+	13	76
+	+	14	0
+	+	3	91
+	+	9	91
+	+	5	67
+	+	6	70
+	+	5	9
+	+	9	52
+
+> ~/workspace/bootcamp/logs/20200507.txt
+	*	1588846433	0
+	"	14	0
+	^	14	0
+	.	15	0
+	+	1	9
+	+	3	73
+	+	7	0
+	+	9	85
+	+	10	38
+	+	14	0
+	+	7	61
+	+	4	44
+	+	5	3
+	+	6	9
+	+	7	0
+	+	13	13
+	+	12	11
+	+	11	8
+	+	12	7
+	+	13	7
+	+	11	28
+	+	10	78
+	+	4	78
+	+	11	77
+	+	12	73
+	+	11	73
+	+	12	81
+	+	13	83
+	+	15	0
+
+> ~/workspace/bootcamp/.git/MERGE_MSG
+	*	1588824739	0
+	"	1	0
+
+> ~/workspace/bootcamp/rails/test/fixtures/users.yml
+	*	1588811716	0
+	"	3	0
+
+> ~/workspace/bootcamp/logs/20200501.txt
+	*	1588330154	0
+	"	12	13
+	^	12	14
+	.	12	14
+	+	15	0
+	+	3	61
+	+	5	65
+	+	8	28
+	+	9	58
+	+	8	58
+	+	13	90
+	+	12	14
+
+> ~/workspace/bootcamp/logs/20200430.txt
+	*	1588242887	0
+	"	3	12
+	^	3	13
+	.	3	13
+	+	1	9
+	+	3	69
+	+	7	0
+	+	3	9
+	+	4	33
+	+	5	7
+	+	3	9
+	+	6	7
+	+	5	11
+	+	6	61
+	+	7	64
+	+	7	0
+	+	7	77
+	+	13	0
+	+	12	14
+	+	11	30
+	+	7	0
+	+	3	9
+	+	5	11
+	+	5	0
+	+	5	61
+	+	6	3
+	+	12	13
+	+	12	74
+	+	3	13
+
+> ~/workspace/bootcamp/logs/20200428.txt
+	*	1588068348	0
+	"	5	79
+	^	5	80
+	.	5	79
+	+	1	9
+	+	3	72
+	+	6	0
+	+	12	0
+	+	11	0
+	+	4	29
+	+	3	29
+	+	5	70
+	+	5	80
+	+	9	1
+	+	9	8
+	+	10	1
+	+	9	27
+	+	10	57
+	+	9	59
+	+	4	62
+	+	9	45
+	+	3	11
+	+	4	9
+	+	3	11
+	+	4	5
+	+	10	6
+	+	11	85
+	+	5	79
+
+> ~/workspace/bootcamp/logs/20200427.txt
+	*	1587980170	0
+	"	17	11
+	^	17	12
+	.	17	11
+	+	1	9
+	+	5	41
+	+	3	32
+	+	10	0
+	+	7	44
+	+	9	0
+	+	7	28
+	+	7	25
+	+	7	33
+	+	8	37
+	+	6	60
+	+	7	34
+	+	7	0
+	+	6	9
+	+	8	38
+	+	12	23
+	+	14	41
+	+	16	0
+	+	15	7
+	+	14	26
+	+	15	32
+	+	16	44
+	+	17	11
+
+> ~/workspace/bootcamp/logs/20200424.txt
+	*	1587722709	0
+	"	13	0
+	^	13	0
+	.	14	0
+	+	3	59
+	+	5	29
+	+	6	43
+	+	5	52
+	+	6	52
+	+	5	9
+	+	6	3
+	+	13	0
+	+	14	0
+	+	13	12
+	+	4	26
+	+	9	9
+	+	10	40
+	+	11	3
+	+	9	11
+	+	12	48
+	+	5	9
+	+	6	52
+	+	13	12
+	+	14	0
+
+> ~/.tmux.conf
+	*	1587691982	0
+	"	6	0
+	^	6	1
+	.	6	0
+	+	7	54
+	+	6	0
+
+> ~/workspace/bootcamp/logs/20200423.txt
+	*	1587642013	0
+	"	14	90
+	^	14	93
+	.	14	90
+	+	1	9
+	+	6	0
+	+	14	0
+	+	3	33
+	+	5	30
+	+	10	1
+	+	9	11
+	+	10	41
+	+	13	34
+	+	14	15
+	+	12	6
+	+	13	78
+	+	14	0
+	+	14	90
+
+> ~/workspace/20200422.txt
+	*	1587551122	0
+	"	4	20
+	^	4	21
+	.	4	20
+	+	14	66
+	+	14	41
+	+	15	0
+	+	14	20
+	+	13	20
+	+	12	20
+	+	11	20
+	+	7	20
+	+	6	20
+	+	5	20
+	+	4	20
+
+> ~/workspace/bootcamp/logs/20200422.txt
+	*	1587532702	0
+	"	12	8
+	^	12	8
+	.	12	7
+	+	1	9
+	+	3	26
+	+	4	13
+	+	8	0
+	+	10	0
+	+	13	0
+	+	4	33
+	+	7	30
+	+	12	7
+
+> ~/workspace/bootcamp/logs/20200421.txt
+	*	1587463939	0
+	"	12	44
+	^	12	47
+	.	12	47
+	+	3	20
+	+	4	39
+	+	4	13
+	+	6	0
+	+	4	42
+	+	4	39
+	+	4	32
+	+	3	12
+	+	4	0
+	+	5	44
+	+	8	0
+	+	10	0
+	+	9	41
+	+	4	26
+	+	10	57
+	+	12	14
+	+	10	54
+	+	12	47
+
+> ~/workspace/bootcamp/logs/20200420.txt
+	*	1587373444	0
+	"	1	0
+	^	17	14
+	.	17	14
+	+	1	9
+	+	3	32
+	+	8	13
+	+	9	0
+	+	7	34
+	+	8	16
+	+	6	30
+	+	8	41
+	+	11	12
+	+	12	20
+	+	16	7
+	+	13	11
+	+	14	41
+	+	16	41
+	+	17	14
+
+> ~/workspace/test-git/.git/MERGE_MSG
+	*	1587346680	0
+	"	1	0
+
+> ~/workspace/test-git/test.md
+	*	1587346611	0
+	"	1	2
+	^	1	3
+	.	1	2
+	+	1	2
+
+> ~/workspace/bootcamp/logs/20200417.txt
+	*	1587118091	0
+	"	11	0
+	^	11	0
+	.	10	74
+	+	1	9
+	+	12	0
+	+	3	29
+	+	4	9
+	+	3	9
+	+	4	9
+	+	5	50
+	+	8	7
+	+	3	11
+	+	10	12
+	+	9	9
+	+	10	74
+
+> ~/workspace/bootcamp/logs/20200415.txt
+	*	1586913548	0
+	"	7	0
+	^	7	0
+	.	8	0
+	+	3	80
+	+	4	0
+	+	5	31
+	+	8	28
+	+	8	0
+
+> ~/workspace/bootcamp/logs/aaa
+	*	1586826947	0
+	"	1	0
+
+> ~/workspace/http-client/.git/COMMIT_EDITMSG
+	*	1586768116	0
+	"	1	0
+	.	2	0
+	+	2	0
+
+> ~/workspace/bootcamp/touch_file_and_directory.sh
+	*	1586757336	0
+	"	1	0
+
+> ~/.ssh/config
+	*	1586744873	0
+	"	4	9
+	^	4	10
+	.	4	9
+	+	4	0
+	+	3	8
+	+	4	9
